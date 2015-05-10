@@ -1,0 +1,220 @@
+/*style untuk bagian body , merubah gambar , mengatur margin , warna huruf dan merubah jenis font */
+body{
+	background:url(../images/bulet.jpg);
+	margin:0px;
+	font: 400 12px/22px 'Open Sans', Verdana, Helvetica, sans-serif;
+	color:lightblue;
+
+}
+/*Style untuk bagian paragraf, huruf h1,h2,h3,ul dll */
+p{text-align: justify;}
+h1{font: 400 58px/60px 'Bree Serif', Georgia, serif; color:#33b5e5;}
+h2{font: 400 18px/22px 'Bree Serif', Georgia, serif; color:#33b5e5;}
+h3{font: 400 14px/16px 'Bree Serif', Georgia, serif; color:#33b5e5;}
+ul{margin:0px; padding:0px; color : white;}
+a {text-decoration:none; color:#33b5e5;}
+a:hover {color:#979797;}
+a img{border:0px;}
+.welcome{text-align: center;}
+
+#container{
+	width:950px;
+	margin:0px auto 300px auto;
+	background:url(../images/aa.jpg);
+	overflow:auto;
+	padding-bottom:100px;
+}
+
+/****************************************************/
+/* HEADER */
+/****************************************************/
+/*Style untuk bagian header*/
+#header{
+	width:864px;
+	height:115px;
+	background:url(../images/header.jpg);
+	padding:0px 43px;
+	position: fixed;
+	top:0px;
+	left:50%;
+	margin: 0 0 0 -475px;
+}
+#header #logo{
+	padding-top:15px;
+	float:left;
+}
+#header #main-menu{float:right; padding-top:45px;color: lightblue;}
+#header #main-menu li{
+	float:left;
+	list-style:none;
+	margin-left:27px;
+	font: 400 16px/20px 'Bree Serif', Georgia, serif;
+	color: lightblue;
+}
+
+
+/****************************************************/
+/* Sekoolah */
+/****************************************************/
+/* Style untuk bagian Tentang saya*/
+
+#sekolah{margin:0px 43px; padding-top:115px;}
+#sekolah h1{float:left;}
+#sekolah #top-social{float:right; padding-top:62px;}
+#sekolah #top-social li{float:left; list-style:none; margin-left:10px;}
+
+#sekolah #top-social .facebook{
+	text-indent:-9999px; 
+	display:block; 
+	
+	
+}
+#sekolah #top-social .twitter{
+	text-indent:-9999px; 
+	display:block; 
+
+	
+}
+#sekolah #top-social .instagram{
+	text-indent:-9999px; 
+	display:block; 
+	
+}
+#sekolah .content{overflow:auto;}
+#sekolah .content img{float:left; margin-right:40px; border:5px solid #222222;}
+#sekolah .content #service-icons{margin-top:20px;}
+#sekolah .content #service-icons li{
+	display:block;
+	width:108px;
+	height:108px;
+	text-indent:-9999px;
+	list-style:none;
+	float:left;
+	margin-right:20px;
+}
+/****************************************************/
+/* Portofolio */
+/****************************************************/
+/*Style untuk bagian portofolio*/
+
+#portofolio{margin:0px 43px; padding-top:115px;}
+#portofolio .kolom{
+	width:235px;
+	float:left;
+}
+#portofolio .content{overflow:auto;}
+#portofolio .kolom2{margin:0px 65px;}
+
+/****************************************************/
+/* Home */
+/****************************************************/
+/* Style untuk bagian home*/
+
+#home{margin:0px 43px; padding-top:115px;}
+#home .content{overflow:auto;}
+#home #foto li{
+	list-style:none;
+	float:left;
+	margin:0px 20px 15px 0px;
+	padding:0px;
+}
+#home #foto li.last{margin:0px;}
+
+/****************************************************/
+/* CONNECT  */
+/****************************************************/
+/*style untuk bagian connect*/
+
+#connect{margin:0px 43px; padding-top:115px;}
+#connect .content{overflow:auto;}
+#connect #form{
+	width:410px;
+	float:left;
+}
+#connect #form span{
+	display:block;
+	float:left;
+	width:100px;
+	padding-top:5px;
+	font: 400 14px/16px 'Bree Serif', Georgia, serif;
+	color:#33b5e5;
+}
+#connect #form input{
+	float:left;
+	width:255px;
+	border:0px;
+	color:#3b3b3b;
+	padding:10px 10px 10px 30px;
+	font: 400 11px/20px 'Open Sans', Verdana, Helvetica, sans-serif;
+	margin-bottom:10px;
+}
+#connect #form textarea{
+	float:left;
+	border:0px;
+	width:255px;
+	height:100px;
+	padding:10px 10px 10px 30px;
+	font: 400 11px/20px 'Open Sans', Verdana, Helvetica, sans-serif;
+	color:#3b3b3b;
+}
+
+#connect #form input.name{color : white; background:#222222 url(images/icon-user.png) no-repeat 10px 8px;}
+#connect #form input.email{color : white; background:#222222 url(images/icon-mail.png) no-repeat 10px 9px;}
+#connect #form textarea.message{color : white; background:#222222 url(images/icon-message.png) no-repeat 10px 8px;}
+#connect #form input.submit{ 
+	width:75px;   
+	height:30px;
+	float:right;
+	padding:0px 0px 5px 0px;
+	margin:10px 16px 0px 0px;
+	background:#222222;
+	color:#3b3b3b;
+	font: 400 14px/16px 'Bree Serif', Georgia, serif;
+}
+
+#connect #social-footer{
+	width:300px;
+	float:left;
+	margin-left:75px;
+}
+#connect #social-footer #sm-links{margin-top:25px;}
+#connect #social-footer #sm-links li{
+	list-style:none;
+	float:left;
+}
+#connect #social-footer #sm-links li a{
+	text-indent:-9999px;
+	width:26px; 
+	height:26px;
+	margin-right:10px;
+}
+
+
+
+.top-divider, .bottom-divider{
+	width:100%;
+	height:9px;
+	
+	clear:both;
+}
+.top-divider{margin-bottom:40px;}
+.bottom-divider{margin-top:40px;}
+
+#footer {
+	text-align: center;
+	background: #333333;
+	font: verdana;
+	color: white;
+	width: 970px;
+	height: 30px;
+	margin: 0px auto ;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: relative;
+	left: -20px;
+	bottom: -100px;
+
+}
+.clear {
+	clear: both;
+
